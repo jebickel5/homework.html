@@ -4,30 +4,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact us</title>
-    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="stylescontact.css">
     <script src="contact.js"></script>
     <script type="text/javascript"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b7d77c1c20.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
 </head>
-  <body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img src="logo.png"
+      height="150"
+      width="150">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Knitting</a></li>
+              <li><a class="dropdown-item" href="#">Painting</a></li>
+              <li><a class="dropdown-item" href="#">Scrapbooking</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Blog Page Presentation.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="my-button" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+</nav>
+  <body>   
     <h1>Contact us</h1>
-    <p>Have an item to sell or have or want to get involved with our blog page?</p>
-    <p2>Here are some ways to contact us:</p2>
+    <p>Have an item to sell or want to get involved with our blog page?</p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <p3>
   <div class="container">
 <div class="row">
-  <div class="col-md-8">Send us a message</div>
-  <div class="col-md-4">Follow us on:
-    <a href="https://www.facebook.com/"> <i class="bi bi-facebook"></i></a>
-    <a href="https://www.instagram.com/"> <i class="bi bi-instagram"></i></a>
-    <a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a>
-  </div>
+  <div class="col-md-8">Send us a message! We will aim to respond within 24h.</div>
 <div class="container">
 <div class="row">
-<div class="col-sm">We will aim to respond within 24h.
+<div class="col-sm">
 </p3>
     <form>
       <div class="col-md-8">
@@ -50,9 +81,53 @@
         <input type="organisation" class="form-control" id="exampleInputorganisation" aria-describedby="emailHelp">
         <div id="organisationHelp" class="form-text">Organisation name</div>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <form method="post" name="form1" id="form1">    
+        <input id="submit" name="submit" type="submit" value="Submit" onclick="eatFood();" />
     </form>
-  </div>
+    
+  </form>
+  </div> 
+  <footer>
+    <table style="width:100%">
+      <tr>
+        <th scope="col">Shop</th>
+        <th scope="col">Sell</th>
+        <th scope="col">About</th>
+        <th scope="col" colspan="4">Contact us</th>
+        <td> <a href="https://www.facebook.com/"> <i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/"> <i class="bi bi-instagram"></i></a>
+          <a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a></td>
+      </tr>
+      <tr>
+        <td>Gift cards</td>
+        <td>Sell on our website</td>
+        <td>Our story</td>
+        <td>
+          <button class="my-button-footer">Download our app!</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Site map</td>
+        <td>Processing returns</td>
+        <td>FAQ</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Withdraw funds</td>
+        <td>Policies</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>Careers</td>
+      </tr>
+    </table>
+    </footer>
 </div>
 </body>
 </html>
