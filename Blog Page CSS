@@ -273,7 +273,7 @@ img.icon {
 background-color: #ffcc99; 
 height: 310px;
 padding-left: 15px;
-padding-top: 10px;
+padding-top: 20px;
 }
 
 .my-button {
