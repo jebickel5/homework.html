@@ -25,7 +25,7 @@
 }
 .headerdiv {
     height: 100px;
-    background-color: rgba(248, 181, 105, 0.902);
+    background-color: #ffcc99;
     display: flex;
     text-decoration-color: black;
     font-family: serif;
@@ -270,7 +270,7 @@ img.icon {
   width: 40px;
 }
 .footerdiv {
-background-color: #ffbc74; 
+background-color: #ffcc99; 
 height: 310px;
 padding-left: 15px;
 }
