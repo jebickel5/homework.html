@@ -272,7 +272,7 @@ img.icon {
 .footerdiv {
 background-color: #ffcc99; 
 height: 310px;
-padding-left: 15px;
+padding-left: 20px;
 padding-top: 20px;
 }
 
