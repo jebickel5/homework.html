@@ -25,7 +25,7 @@ body {
     background-color: #f6bfff;
     color: #6C757D;
     opacity: 1
-    border radius: 25px
+    border: 25px;
 }
 
 h1 {
@@ -65,18 +65,27 @@ p.thick {
     color: #32373b;
 }
 
-select {
+.my-select {
     position: relative;
     background-color: #6c757d
   }
   
-.select-selected {
+.my-select {
     background-color: #6C757D;
     color: #fff5ec;
   }
-  
-  /*style the arrow inside the select element:*/
-.select-selected:after {
+
+.my-select:hover {
+  background-color: #f6bfff;
+  color:#6C757D
+}
+
+.my-select::marker {
+  background-color: #6c757d;
+}
+
+.my-select:after {
+    background-color: #f6bfff;
     position: absolute;
     content: "";
     top: 14px;
@@ -104,7 +113,7 @@ select {
   }
   
   /*style items (options):*/
-  .select-items {
+.select-items {
     position: absolute;
     background-color: #f6bfff;
     top: 100%;
@@ -122,43 +131,23 @@ select {
     background-color: rgba(0, 0, 0, 0.1);
   }
 
-  table {
-    border-collapse: collapse;
+  table.table {
     border-spacing: 0;
     width: 100%;
     table-layout: fixed;
+    border: 0;
+    border-color: #ffcc99;
   }
   
   th, td {
     text-align: left;
-    padding: 8px;
+    padding: 0px;
     width: 100%;
   }
 
   img.icon {
     width: 100%;
   }
-
-  .star-rating{
-    color: #bebebe;
-    font-size:2em;
-}
-/*create the star*/
-.my-star::before{
-    content:"\002605";
-}
-/*remove the default style (italic) of the star*/
-.my-star{
-    font-style: unset !important;
-}
-/*set active star color*/
-.is-active{
-    color:#fb8900;
-}
-/*set color on hover*/
-.my-star:not(.is-active):hover{
-    color: #fb8900;
-}
 
 img.product {
   width: 100%;
@@ -178,4 +167,30 @@ a:hover {
 
 a:active {
   color:#ef92fd
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color:#6C757D;
+  color: white;
+  padding: 14px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#f6bfff;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
