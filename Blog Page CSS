@@ -271,7 +271,7 @@ img.icon {
 }
 .footerdiv {
 background-color: #ffbc74; 
-height: 350px;
+height: 310px;
 padding-left: 15px;
 }
 
