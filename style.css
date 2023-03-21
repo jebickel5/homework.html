@@ -31,7 +31,6 @@ footer {
     width: 25%;
   }
 
-
 .my-button:hover {
     background-color: #f6bfff;
     color: #6C757D;
@@ -159,3 +158,5 @@ a:link {
 .navbar-brand {
     color: #32373b;
 }
+
+
