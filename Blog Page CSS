@@ -1,27 +1,54 @@
-div.headerdiv {
-    height: 150px;
-    background-color: fff5EC;
+.my-button { 
+  color: #f6bfff; 
+}
+
+.my-button {
+  background-color: #6C757D;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 10px;
+  width: 25%;
+}
+
+.my-button:hover {
+  background-color: #f6bfff;
+  color: #6C757D;
+  opacity: 1
+  border-radius 25px;
+}
+.headerdiv {
+    height: 100px;
+    background-color: rgba(248, 181, 105, 0.902);
     display: flex;
     text-decoration-color: black;
     font-family: serif;
     padding-left: 135px;
+    padding-top: 20px;
 }
-div.right_header {
 
-  margin: 45;
-  padding-left: 2040;
-  position:absolute;
-}
   /* Style the links inside the navigation bar */
   .topnav a {
     display:inline-block;
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     text-decoration: black;
     background-color: white;
+    height:fit-content;
+  }
+  .topnav_area {
+    height:170px;
+    padding-top: 50px;
+    padding-left: 15px;
   }
   
   /* Change the color of links on hover */
@@ -34,7 +61,8 @@ div.right_header {
   .topnav input[type=text] {
     float: none;
     padding: 10px;
-    border:black;
+    border:grey;
+    border-style: outset;
     margin-top: 8px;
     margin-right: 50px;
     font-size: 17px;
@@ -53,7 +81,7 @@ div.right_header {
 
   }
 div.thisweek {
-    height: 770px;
+    height: 595px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,16 +89,19 @@ div.thisweek {
 }
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: large;
+    padding-left: 5px;
 }
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 140px;
+    text-align: left;
     font-size: large;
+    padding-left: 140px;
 }
 p {
     text-align: center;
+    color: 32373b;
 }
 div.div1 {
     text-align: center;
@@ -138,16 +169,7 @@ div.desc {
   display: table;
   clear: both;
 }
-div.footerdiv {
-  height: 200px;
-  background-color: fff5EC;
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  text-decoration-color: black;
-  font-family: serif;
-  padding-left: 50px;
-}
+
  /* Style all font awesome icons */
  .fa {
   padding: 20px;
@@ -174,7 +196,7 @@ div.footerdiv {
 } 
 /* Instagram */
 .fa-instagram {
-  background: #f09433; 
+background: #f09433; 
 background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
 background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
@@ -191,11 +213,10 @@ div.topnav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 180px;
 }
 
 .topnav a:hover {
-  background-color: #fff5ec;
+  background-color: fff5ec;
   color: black;
 }
 
@@ -206,5 +227,72 @@ a:link {
 a:link {
   text-decoration: none;
 }
+.my-button-footer { 
+  color: #f6bfff; 
+}
 
+.my-button-footer {
+  background-color: #6C757D;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 10px;
+  width: 250px;
+}
 
+.my-button-footer:hover {
+  background-color: #f6bfff;
+  color: #6C757D;
+  opacity: 1;
+  border-radius: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  width: 25%;
+}
+
+img.icon {
+  width: 40px;
+}
+.footerdiv {
+background-color: #ffbc74; 
+height: 290px;
+padding-left: 15px;
+}
+
+.my-button {
+    background-color: #6C757D;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px;
+    width: 25%;
+  }
+
+.my-button:hover {
+    background-color: #f6bfff;
+    color: #6C757D;
+    opacity: 1
+    border-radius 25px;
+}
